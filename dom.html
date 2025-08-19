@@ -1,0 +1,19 @@
+<html lang="en">
+<head>
+</head>
+<body>
+    <input id="myInput" type="text" value="default">
+    <input type="submit" value="submit" onclick="a()">
+<script>
+    document.getElementById("submit").addEventListener('click',function(){
+        let inputvalue1=document.getElementById("myCheckbox").value;
+        alret(inputvalue1); 
+    })
+    function a(){
+        let inputvalue=document.getElementById("meInput").value;
+        alert(inputvalue);
+        document.getElementById("myInput").value="changed!";
+    }
+</script>
+</body>
+</html>     
